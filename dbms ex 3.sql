@@ -1,5 +1,5 @@
-create database university;
-use university;
+create database universitydb;
+use universitydb;
 
 create table Students (
 student_id int primary key,
@@ -65,8 +65,8 @@ insert into Courses(course_id,course_name,credits) values
 
 insert into Instructors(instructor_id,instructor_name,department) values
 (301,'Angel','CS'),
-(302,'Tinku','Banking Technology'),
-(303,'Angel','CS');
+(302,'Tinku','CS'),
+(303,'Angel','Banking Technology');
 
 insert into Enrolments(enrolment_id,student_id,course_id,instructor_id,enrolment_date) values
 (001,101,201,301,'2024-06-15'),
